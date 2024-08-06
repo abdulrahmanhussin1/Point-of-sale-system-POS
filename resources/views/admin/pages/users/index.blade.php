@@ -1,6 +1,6 @@
 @extends('admin.layouts.app')
 @section('title')
-{{ __('Roles Page ') }}
+{{ __('Users Page ') }}
 
 @endsection
 @section('content')
@@ -24,8 +24,9 @@
     </section>
 @endsection
 @section('js')
+{{ $dataTable->scripts(attributes: ['type' => 'module']) }}
+
 <script>
-  {{ $dataTable->scripts(attributes: ['type' => 'module']) }}
 
     $(document).ready(function() {
 

@@ -1,9 +1,9 @@
   <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
+  <footer id="footer" class="footer" style="padding: 0%">
     <div class="copyright">
         &copy; Copyright <strong><span>POS System</span></strong>. All Rights Reserved
       </div>
-      <div class="credits">
+      <div class="credits" >
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
